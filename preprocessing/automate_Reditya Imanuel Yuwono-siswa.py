@@ -21,7 +21,6 @@ def preprocess_data(df):
         df.drop('Unnamed: 0', axis=1, inplace=True)
 
     # Standardisasi Nama Target
-    # Mengubah 'Credit Risk' menjadi 'Risk'
     target_map = {'Credit Risk': 'Risk', 'class': 'Risk', 'Target': 'Risk'}
     df.rename(columns=target_map, inplace=True)
     
