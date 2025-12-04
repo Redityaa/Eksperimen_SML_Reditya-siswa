@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Preprocessing Script
         run: |
-          python "preprocessing/automate_Reditya Imanuel Yuwono-siswa.py" --input "german_credit_data_dataset_.csv" --output "preprocessing/german_credit_preprocessing.csv"
+          python "preprocessing/automate_Reditya Imanuel Yuwono-siswa.py" --input "german_credit_data.csv" --output "preprocessing/german_credit_preprocessing.csv"
 
       - name: Commit and Push Clean Data
         uses: stefanzweifel/git-auto-commit-action@v5
